@@ -1,0 +1,66 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+staticfiles/
+static/
+
+# If using Django secret settings in a .env file
+.env.local
+.env.*.local
+
+# VSCode / PyCharm / IDEs
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Python egg & packaging
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Pipenv
+Pipfile.lock
+
+# Migrations (optional, but usually better to keep)
+# Uncomment if you want to ignore migration files
+# */migrations/*.py
+# !*/migrations/__init__.py
+
+# Coverage / test reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.tox/
